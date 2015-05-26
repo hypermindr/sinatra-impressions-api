@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'sinatra', :require => 'sinatra/base'
+gem 'thin'
+gem 'mongoid', '~> 4'
+gem 'bson_ext'
+gem 'newrelic_rpm'
+gem 'sinatra-jsonp'
+gem 'sidekiq', '~> 3.3.0'
+gem 'moped', '~> 2.0.1'
